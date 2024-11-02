@@ -1,33 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 body{
     background-image: url(Images/Double_space.jpg);
-    background-size: auto;
-    background-position-x: -600px;
-    background-position-y: -200px;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     font-style: normal;
     font-family: "Source Code Pro", monospace; 
     color: white;
 }
 
-
 .main{
-    max-width: 1400px;
-    min-width: 260px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .main__figure{
     width: 400px;
     height: 300px;
     backdrop-filter: blur(10px);
-    border-style: solid;
-    border-color: white;
-    border-style:solid;
+    border: solid white;
     border-radius: 10px;
-    justify-content: center;
     text-align: center;
-    margin-top: 120px;    
 }
 
 .main__name{
